@@ -1,0 +1,48 @@
+#score {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    text-align: right;
+    font-size: 2em;
+}
+
+
+.fruit {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.apple {
+    background-image: url("/apple.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.orange {
+    background-image: url("/orange.png");
+}
+
+.banana {
+    background-image: url("/banana.webp");
+}
+
+#restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#restart button {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+}
