@@ -46,3 +46,10 @@
 body {
     margin: 0;
 }
+
+.github-link {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    font-size: 2em;
+}
